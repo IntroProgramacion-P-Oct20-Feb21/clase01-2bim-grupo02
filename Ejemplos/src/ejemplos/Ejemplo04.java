@@ -16,10 +16,21 @@ public class Ejemplo04 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        char caracter = 'á';
-        int c = caracter;
-        System.out.println((int)caracter);
-        
+        char ast;
+        //for (int i=1;i<=10;i++){
+          //  System.out.println("*"*(i+1));
+         for (int i= 65;i<=96;i++){
+             ast = (char)i;
+             System.out.printf("%d |%s|\n",i,ast);
+         
+         }
+         System.out.println("");
+         for (int i= 97;i<=122;i++){
+             ast = (char)i;
+             System.out.printf("%d |%s|\n",i,ast);
+         
+         }
+        }
     }
     
-}
+
