@@ -5,34 +5,21 @@
  */
 package ejemplos;
 
+
 /**
  *
  * @author USUARIO
  */
 public class Ejercicio01 {
-
-    public static void main(String[] args) {
-        String frase = "Hola Mundo";
-        char posicion;
-        int i;
-        int conMayus = 0;
-        int conMin = 0;
-        String cadena = "Frase con:\n";
-        for (i = 0; i < frase.length(); i++) { //Minusculas
-            posicion = frase.charAt(i);
-            if ((((int) posicion) >= 65) && (((int) posicion) <= 90)) {
-                conMayus += 1;
-            } else {
-                if ((((int) posicion) >= 97) && (((int) posicion) <= 122)) {
-                    conMin += 1;
-
-                }
-
-            }
-            
-        }
-    System.out.printf("%sNúmero de minusculas: %d\nNúmero de Mayusculas: %d\n",
-                    cadena, conMin, conMayus);
-
+     public static void main(String[] args) {
+         int i;
+         for (i=97;i<=122;i++){
+           if ((i == 97)||(i == 101)||(i == 105)||(i == 111)||(i == 117)) {
+               System.out.printf("%s |%d|\n",(char)i,i);
+         
+ 
+           }
+         }
+     }
 }
-}
+    
