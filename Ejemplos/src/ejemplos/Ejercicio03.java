@@ -12,10 +12,10 @@ package ejemplos;
 public class Ejercicio03 {
     public static void main(String[]args){
 	int contador;
-	String punto = ("*"),cadenaAsteriscos2 = ("*");
+	String punto = ("."),puntos2 = (".");
 	System.out.println(punto);
 	for (contador = 1;(!(contador == 10)) ; contador++) {
-            punto = punto + cadenaAsteriscos2;
+            punto = punto + puntos2;
             System.out.println(punto);
 	}
     }
